@@ -255,29 +255,35 @@ body {
     transform: translateY(0.3vh);    
 }
 
-p {
+.normal {
     font-size: 25px;
     color: #D6CECE;
     line-height: 1.5;
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-apa7 {
+.apa7 {
     font-size: 25px;
     color: #D6CECE;
     line-height: 2;    
-    font-family: "Times New Roman", Times, serif;        
-}
+    font-family: "Times New Roman", Times, serif;
 
-apatitle {
+}
+.apatitle {
     font-size: 25px;
     color: #D6CECE;
+    line-height: 2;    
     font-family: "Times New Roman", Times, serif;
-    font-style: bold;
-    text-align: right;    
+    text-align: center;
 }
-
-
+.apatitlebold {
+    font-weight: bold;    
+    font-size: 25px;
+    color: #D6CECE;
+    line-height: 2;    
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
 h1 {
     color: #5D616C;
     background-image: linear-gradient(to right, #D6CECE, #5D616C);
