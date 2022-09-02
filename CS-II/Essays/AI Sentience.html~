@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <title>June Hwang Digital Portfolio</title>
+    <link rel="stylesheet" href="../../style.css">
+    
+  </head>
+  <body>
+
+    <button class="button1" onclick="window.location.href='../../index.html';">
+      About Me
+    </button>
+    
+    
+    <button class="button2" onclick="window.location.href='../../classes.html';">
+      Classes
+    </button>
+    
+    <button class="button3" onclick="window.location.href='../../projects.html';">
+      Projects
+    </button>
+    
+    <button class="button4" onclick="window.location.href='Fingerprints.html';">
+    Fingerprints
+    </button>
+    
+    <button class="button5" onclick="window.location.href='AI Sentience.html';">
+      AI Sentience
+    </button>
+    
+
+    <div class="container5">
+	<h5>June Hwang</h5>
+	<p>Male, Korean</p>
+	<p>Allen, Texas</p>
+	<p>juneyoung.hwang@student.allenisd.org</p>
+	<p>Allen High School 2024</p><br>
+	
+	<h1>Language</h1>
+	<p>Korean - Native</p>
+	<p>English - Full</p><br>
+	
+	<h1>Skills</h1>
+	<p>Python</p>
+	<p>Swift</p>
+	<p>HTML</p>
+	<p>CSS</p><br>
+	
+	<h1>Interests</h1>
+	<p>Playing Instruments</p><br>
+	
+  </div>
+
+  </body>
+    
+</html>

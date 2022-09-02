@@ -120,6 +120,7 @@ body {
     border-top-left-radius: 0px;
     padding-top: 1vh;
     padding-left: 1vh;
+    overflow-y: scroll;	
 }
 
 
@@ -132,6 +133,7 @@ body {
     border-top-left-radius: 0px;
     padding-top: 1vh;
     padding-left: 1vh;
+    overflow-y: scroll;	
 }
 
 
@@ -144,6 +146,7 @@ body {
     border-top-left-radius: 0px;
     padding-top: 1vh;
     padding-left: 1vh;
+    overflow-y: scroll;	
 } 
 
 
@@ -156,7 +159,20 @@ body {
     border-top-left-radius: 0px;
     padding-top: 1vh;
     padding-left: 1vh;
+    overflow-y: scroll;
 } 
+
+.container5 {
+    margin-top: 0.3vh;
+    width: 94vw;
+    height: 85vh;
+    background-color: #3d4e6e;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    padding-top: 1vh;
+    padding-left: 1vh;
+    overflow-y: scroll;
+}
 
 .button1 {
     background-color: #5D616C;
@@ -209,6 +225,18 @@ body {
     width: 10vw;   
     transition-duration: 0.2s;       
 }
+.button5 {
+    background-color: #3d4e6e;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1.4vw;
+    font-weight: bold;
+    color: #D6CECE;
+    border: 2px #3d4e6e;
+    height: 5vh;
+    width: 10vw;   
+    transition-duration: 0.2s;       
+}
 
 
 .button1:hover {
@@ -223,12 +251,32 @@ body {
 .button4:hover {
     transform: translateY(0.3vh);    
 }
+.button5:hover {
+    transform: translateY(0.3vh);    
+}
 
 p {
     font-size: 25px;
     color: #D6CECE;
     line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;    
 }
+
+apa7 {
+    font-size: 25px;
+    color: #D6CECE;
+    line-height: 2;    
+    font-family: "Times New Roman", Times, serif;        
+}
+
+apatitle {
+    font-size: 25px;
+    color: #D6CECE;
+    font-family: "Times New Roman", Times, serif;
+    font-style: bold;
+    text-align: right;    
+}
+
 
 h1 {
     color: #5D616C;
@@ -262,3 +310,10 @@ h4 {
     height: 4vh;
 }
 
+h5 {
+    color: #3d4e6e;
+    background-image: linear-gradient(to right, #D6CECE, #3d4e6e);
+    font-size: 3vh;
+    width: 60%;
+    height: 4vh;
+}
