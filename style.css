@@ -269,6 +269,7 @@ body {
     font-family: "Times New Roman", Times, serif;
 
 }
+
 .apatitle {
     font-size: 25px;
     color: #D6CECE;
@@ -276,6 +277,7 @@ body {
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
+
 .apatitlebold {
     font-weight: bold;    
     font-size: 25px;
@@ -284,6 +286,7 @@ body {
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
+
 h1 {
     color: #5D616C;
     background-image: linear-gradient(to right, #D6CECE, #5D616C);
