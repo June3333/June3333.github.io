@@ -1,0 +1,6 @@
+func sort(sorting: [String]) -> [String] {
+    return sorting.sorted()
+
+}
+
+print(sort(sorting: ["append", "apple", "Hello world"]))
