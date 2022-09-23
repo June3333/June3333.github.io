@@ -267,7 +267,15 @@ body {
     color: #D6CECE;
     line-height: 2;    
     font-family: "Times New Roman", Times, serif;
+}
 
+.apa7hanging {
+    margin-left: 22px ;
+    text-indent: -22px ;    
+    font-size: 25px;
+    color: #D6CECE;
+    line-height: 2;    
+    font-family: "Times New Roman", Times, serif;
 }
 
 .apatitle {
@@ -288,7 +296,7 @@ body {
 }
 
 h1 {
-    color: #5D616C;
+     color: #5D616C;
     background-image: linear-gradient(to right, #D6CECE, #5D616C);
     font-size: 3vh;
     width: 60%;
