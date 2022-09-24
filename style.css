@@ -238,7 +238,36 @@ body {
     transition-duration: 0.2s;       
 }
 
+.button4 {
+    background-color: #23395D;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1.4vw;
+    font-weight: bold;
+    color: #D6CECE;
+    border: 2px #23395D;
+    height: 5vh;
+    width: 10vw;   
+    transition-duration: 0.2s;       
+}
 
+.buttonLink {
+    background-color: #23395D;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1.4vw;
+    font-weight: bold;
+    color: #D6CECE;
+    border: 2px #23395D;
+    height: 5vh;
+    width: 15vw;   
+    transition-duration: 0.2s;       
+}
+
+
+.buttonLink:hover {
+    transform: translateY(0.3vh);
+}
 .button1:hover {
     transform: translateY(0.3vh);
 }
@@ -267,15 +296,19 @@ body {
     color: #D6CECE;
     line-height: 2;    
     font-family: "Times New Roman", Times, serif;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .apa7hanging {
-    margin-left: 22px ;
+    padding-left: 33px ;
     text-indent: -22px ;    
     font-size: 25px;
     color: #D6CECE;
     line-height: 2;    
     font-family: "Times New Roman", Times, serif;
+    margin-right: 10%;
+    margin-left: 10%;    
 }
 
 .apatitle {
