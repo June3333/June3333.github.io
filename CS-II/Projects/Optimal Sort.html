@@ -35,24 +35,58 @@
     </button>
     
     <div class="container1">
-      <h1>Colaborated with</h1>
+      <h1>Optimal Sort</h1>
       <p class="normal">
+	Colaborated with:<br>
 	Ryan Hallock, Farhan Ishraque, David Ortega<br><br>
       </p>
       <h1>Word Sorting Algorithm</h1>
-
-      <img src="june_sort_flowchart.png" alt="concept image" width="1300" height="800">
-      
-      <button class="buttonLink" onclick="window.location.href='https://github.com/ryanhallock/sortalgo'">
+      <div>
+	<img src="june_sort_flowchart.png" alt="concept image" width="1300" height="800">
+      </div> 
+      <button class="buttonLink" onclick="window.open('https://github.com/ryanhallock/sortalgo', '_blank')">
 	Source Files
       </button>
     
-      <button class="buttonLink" onclick="window.location.href='https://docs.google.com/spreadsheets/d/1SAjMb2EtCyd8GzW1L2hgFTVoE5fLagDCUNXVaAiScTg/edit?usp=sharing'">
+      <button class="buttonLink" onclick="window.open('https://docs.google.com/spreadsheets/d/1SAjMb2EtCyd8GzW1L2hgFTVoE5fLagDCUNXVaAiScTg/edit?usp=sharing', '_blank')">
 	Spread Sheet
       </button>
+      <p><br><br><br><br><br><br><br><br></p>
+      <h1>Sort Analysis</h1>
+      <p><br></p>
+      
+      <div>
+	<img src="sortchart.png" alt="SortChart" width="1100" height="600">
+      </div>
+      <p class="apa7">
+	I hypothesized that the most significant factor that impacts runtime was the number of changes in the list because of the following evidences:<br>
+	<br>
+	My hypothesis can be explained by using the results of bubble sort and insertion sort and how they function.<br>
+	<br>
+	- A bubble sort algorithm runs again and again comparing and swapping each element that is in the wrong order until the whole list is sorted, therefore resulting in the greatest number of changes in the array.<br>
+	- An Insertion sort algorithm pushes the element to the front until there is a number less than the element for each pass, resulting in a lesser number of changes in the list.<br>
+	- The graph shows that the runtime of bubble sort was longer than insertion sort in all three types of files, and this was because insertion sort had less number of changes than the bubble sort due to differences in processes as explained above.<br><br>
 
+	It can also be explained by the overall runtime difference among the three files<br>
+	<br>
+	- The graph shows the runtime for sorting ordered files to be the lowest because ordered list doesn’t require any changes in the list for bubble sort and insertion sort.<br>
+	- The longest runtime came from sorting reverse ordered files because reverse ordered files maximizes the number of changes.<br>
+	- The runtime for random files was in between ordered and reverse-ordered because there could have been some portions where the words were already in order, causing less amount of change in the list.<br>
+	<br>
+	It can also be explained by the results of the selection sort<br>
+	<br>
+	The time taken for selection sort to sort all three files were about the same because the process was identical in all the files due to how selection sort works. The algorithm selects the element with the lowest value and places it in the front, then the second lowest value to the next. This process is the same regardless of how the list is ordered, resulting in similar runtimes as shown in the graph. While bubble sort and Insertion sort varied in runtime when running ordered and reverse-ordered due to differences in number of changes in the list, selection sort remained constant in all three files because the number of changes in the list was identical.<br><br>
+	</p>
+      <button class="buttonLink" onclick="window.open('https://github.com/June3333?tab=repositories', '_blank')">	
+	Github link to Sorts
+      </button>
 
+    <button class="buttonLink" onclick="window.open('https://docs.google.com/spreadsheets/d/1EiVG8D51ujiAnvTk0L12tb777WVwi4kJ9Pmf5IrO6E0/edit?usp=sharing', '_blank')">
+      Analysis Sheet
+    </button>
 
+    <p><br><br></p>
+    
  </div>
     
   </body>
