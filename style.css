@@ -112,22 +112,24 @@ body {
 }
 
 .container1 {
-    margin-top: 0.3vh;
-    width: 94vw;
-    height: 85vh;
+    margin-top: 2.5vh;
+    margin-left: 5vh;
+    width: 90vw;
+    height: 80vh;
     background-color: #5D616C;
     border-radius: 10px;
     border-top-left-radius: 0px;
     padding-top: 1vh;
     padding-left: 1vh;
-    overflow-y: scroll;	
+    overflow-y: scroll;
 }
 
 
 .container2 {
-    margin-top: 0.3vh;
-    width: 94vw;
-    height: 85vh;
+    margin-top: 2.5vh;
+    margin-left: 5vh;
+    width: 90vw;
+    height: 80vh;
     background-color: #5D6D7E;
     border-radius: 10px;
     border-top-left-radius: 0px;
@@ -138,9 +140,10 @@ body {
 
 
 .container3 {
-    margin-top: 0.3vh;
-    width: 94vw;
-    height: 85vh;
+    margin-top: 2.5vh;
+    margin-left: 5vh;
+    width: 90vw;
+    height: 80vh;
     background-color: #253E52;
     border-radius: 10px;
     border-top-left-radius: 0px;
@@ -151,9 +154,10 @@ body {
 
 
 .container4 {
-    margin-top: 0.3vh;
-    width: 94vw;
-    height: 85vh;
+    margin-top: 2.5vh;
+    margin-left: 5vh;
+    width: 90vw;
+    height: 80vh;
     background-color: #23395D;
     border-radius: 10px;
     border-top-left-radius: 0px;
@@ -163,9 +167,10 @@ body {
 } 
 
 .container5 {
-    margin-top: 0.3vh;
-    width: 94vw;
-    height: 85vh;
+    margin-top: 2.5vh;
+    margin-left: 5vh;
+    width: 90vw;
+    height: 80vh;
     background-color: #3d4e6e;
     border-radius: 10px;
     border-top-left-radius: 0px;
@@ -174,126 +179,136 @@ body {
     overflow-y: scroll;
 }
 
+
+.buttons {
+    transform: TranslateY(2vh);
+    margin-left: 5vh;
+}
+
 .button1 {
     background-color: #5D616C;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 1.4vw;
-    font-weight: bold;
     color: #D6CECE;
     border: 2px #5D616C;
-    height: 5vh;
-    width: 10vw;   
-    transition-duration: 0.2s;       
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 2vh;
+    font-weight: bold;
+    height: 4vh;
+    width: 15vh;
+    transition-duration: 0.2s;
 }
 
 .button2 {
     background-color: #5D6D7E;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 1.4vw;
-    font-weight: bold;
     color: #D6CECE;
     border: 2px #5D607E;
-    height: 5vh;
-    width: 10vw;   
-    transition-duration: 0.2s;       
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 2vh;
+    font-weight: bold;
+    height: 4vh;
+    width: 15vh;
+    transition-duration: 0.2s;
 }
 
 .button3 {
     background-color: #253E52;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 1.4vw;
-    font-weight: bold;
     color: #D6CECE;
     border: 2px #253E52;
-    height: 5vh;
-    width: 10vw;   
-    transition-duration: 0.2s;       
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 2vh;
+    font-weight: bold;
+    height: 4vh;
+    width: 15vh;
+    transition-duration: 0.2s;    
 }
 
 .button4 {
     background-color: #23395D;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 1.4vw;
-    font-weight: bold;
     color: #D6CECE;
     border: 2px #23395D;
-    height: 5vh;
-    width: 10vw;   
-    transition-duration: 0.2s;       
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 2vh;
+    font-weight: bold;
+    height: 4vh;
+    width: 15vh;
+    transition-duration: 0.2s;
 }
+
 .button5 {
     background-color: #3d4e6e;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 1.4vw;
-    font-weight: bold;
     color: #D6CECE;
     border: 2px #3d4e6e;
-    height: 5vh;
-    width: 10vw;   
-    transition-duration: 0.2s;       
-}
-
-.button4 {
-    background-color: #23395D;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    font-size: 1.4vw;
+    font-size: 2vh;
     font-weight: bold;
-    color: #D6CECE;
-    border: 2px #23395D;
-    height: 5vh;
-    width: 10vw;   
-    transition-duration: 0.2s;       
+    height: 4vh;
+    width: 15vh;
+    transition-duration: 0.2s;
 }
 
 .buttonLink {
     background-color: #23395D;
     radius: 10px;
     border-radius: 100px;
-    font-size: 1.4vw;
+    font-size: 1.4vh;
     font-weight: bold;
     color: #D6CECE;
     border: 2px #23395D;
-    height: 5vh;
-    width: 15vw;   
+    height: 3vh;
+    width: 15vh;   
     transition-duration: 0.2s;       
 }
 
+.nav {
+    background-color: transparent;
+    height: 2vh;
+    width: 2vh;    
+    border-bottom: 0.5vh solid black;
+    border-left: 0.5vh solid black;
+    border-top: transparent;
+    border-right: transparent;		 
+    transform: TranslateX(1vw) TranslateY(-1vh) rotate(45deg);
+    transition-duration: 0.2s;
+}
+
+.nav:hover {
+    border-color: white;
+    
+}
 
 .buttonLink:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);    
     transform: translateY(-0.3vh);
 }
 .button1:hover {
-    transform: translateY(0.3vh);
+    transform: translateY(0.6vh);
 }
 .button2:hover {
-    transform: translateY(0.3vh);    
+    transform: translateY(0.6vh);    
 }
 .button3:hover {
-    transform: translateY(0.3vh);    
+    transform: translateY(0.6vh);    
 }
 .button4:hover {
-    transform: translateY(0.3vh);    
+    transform: translateY(0.6vh);    
 }
 .button5:hover {
-    transform: translateY(0.3vh);    
+    transform: translateY(0.6vh);    
 }
 
 .normal {
-    font-size: 25px;
+    font-size: 2vh;
     color: #D6CECE;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .apa7 {
-    font-size: 25px;
+    font-size: 2vh;
     color: #D6CECE;
     line-height: 2;    
     font-family: "Times New Roman", Times, serif;
@@ -304,7 +319,7 @@ body {
 .apa7hanging {
     padding-left: 33px ;
     text-indent: -22px ;    
-    font-size: 25px;
+    font-size: 2vh;
     color: #D6CECE;
     line-height: 2;    
     font-family: "Times New Roman", Times, serif;
@@ -313,7 +328,7 @@ body {
 }
 
 .apatitle {
-    font-size: 25px;
+    font-size: 2vh;
     color: #D6CECE;
     line-height: 2;    
     font-family: "Times New Roman", Times, serif;
@@ -322,7 +337,7 @@ body {
 
 .apatitlebold {
     font-weight: bold;    
-    font-size: 25px;
+    font-size: 2vh;
     color: #D6CECE;
     line-height: 2;    
     font-family: "Times New Roman", Times, serif;
@@ -334,7 +349,7 @@ h1 {
     background-image: linear-gradient(to right, #D6CECE, #5D616C);
     font-size: 3vh;
     width: 60%;
-    height: 4vh;
+    height: 3vh;
 }
  
 h2 {
@@ -342,7 +357,7 @@ h2 {
     background-image: linear-gradient(to right, #D6CECE, #5D6D7E);
     font-size: 3vh;
     width: 60%;
-    height: 4vh;
+    height: 3vh;
 }
 
 h3 {
@@ -350,7 +365,7 @@ h3 {
     background-image: linear-gradient(to right, #D6CECE, #253E52);
     Font-Size: 3vh;
     width: 60%;
-    height: 4vh;
+    height: 3vh;
 }
 
 h4 {
@@ -358,7 +373,7 @@ h4 {
     background-image: linear-gradient(to right, #D6CECE, #23395D);
     font-size: 3vh;
     width: 60%;
-    height: 4vh;
+    height: 3vh;
 }
 
 h5 {
@@ -366,5 +381,5 @@ h5 {
     background-image: linear-gradient(to right, #D6CECE, #3d4e6e);
     font-size: 3vh;
     width: 60%;
-    height: 4vh;
+    height: 3vh;
 }
