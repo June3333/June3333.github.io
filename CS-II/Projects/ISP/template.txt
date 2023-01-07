@@ -1,0 +1,12 @@
+      <h3>-Jan-2023</h3>
+      <p class="normal">
+
+	- Technical challenges<br>
+	&emsp; <br><br>
+	- Scheduling challenges<br>
+	&emsp; <br><br>
+	- Interpersonal challenges<br>
+	&emsp; <br><br>
+
+	
+      </p>
