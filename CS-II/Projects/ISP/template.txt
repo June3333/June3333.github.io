@@ -1,5 +1,5 @@
       <h3>-Jan-2023</h3>
-      <p class="normal">
+      <p class="apa7">
 
 	- Technical challenges<br>
 	&emsp; <br><br>
